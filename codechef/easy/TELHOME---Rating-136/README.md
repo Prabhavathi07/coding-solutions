@@ -81,7 +81,7 @@ It's optimal to teleport $12$ kilometers (which takes no time), and then walk th
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-11T10:22:11.839Z  
+**Submitted:** 2026-10-11T10:22:26.988Z  
 
 ```java
 import java.util.*;
