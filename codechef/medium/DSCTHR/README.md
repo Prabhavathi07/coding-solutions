@@ -67,7 +67,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-12T13:50:41.458Z  
+**Submitted:** 2026-10-12T13:51:50.524Z  
 
 ```java
 import java.util.*;
@@ -84,15 +84,7 @@ class Codechef
 		    int a=sc.nextInt();
 		    int b=sc.nextInt();
 		    int c=sc.nextInt();
-		    if(a>b && a>c){
-		            System.out.println(a);
-		    }
-		    else if(b>a && b>c){
-		        System.out.println(b);
-		    }
-		    else{
-		        System.out.println(c);
-		    }
+		    System.out.println(Math.max(a,Math.max(b,c)));
 		    
 		}
 	}
