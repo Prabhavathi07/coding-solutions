@@ -15,14 +15,17 @@ class Codechef
 		    int K=sc.nextInt();
 		    int[] arr=new int[N];
 		    for(int j=0;j<N;j++){
-		        arr[i]=sc.nextInt();
+		        arr[j]=sc.nextInt();
 		    }
+		    Arrays.sort(arr);
 		   int sum=0;
-		    for(int j=0;j<K;j++){
-		        sum=sum+
+		    for(int j=N-1;j>=N-K;j--){
+		        sum+=arr[j];
 		    }
+		    System.out.println(sum);
 		    
 		}
+	
 
 	}
 }
