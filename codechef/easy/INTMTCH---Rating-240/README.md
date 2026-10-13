@@ -80,7 +80,7 @@ The difference in the number of goals is $0$. This is $\le 2$, so Chef finds the
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-13T17:27:00.305Z  
+**Submitted:** 2026-10-13T17:27:08.135Z  
 
 ```java
 import java.util.*;
