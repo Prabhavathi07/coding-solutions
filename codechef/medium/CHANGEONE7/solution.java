@@ -13,7 +13,7 @@ class Codechef
 		    int n=sc.nextInt();
 		    int a[]=new int[n];
 		    for(int j=0;j<n;j++){
-		        a[i]=sc.nextInt();
+		        a[j]=sc.nextInt();
 		    }
 		   Arrays.sort(a);
 		   int changeMin=a[n-1]-a[1];
