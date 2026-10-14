@@ -63,7 +63,7 @@ Chef can buy $3$ blue pens for a cost of $30$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T15:02:14.251Z  
+**Submitted:** 2026-10-14T15:00:26.778Z  
 
 ```java
 import java.util.*;
