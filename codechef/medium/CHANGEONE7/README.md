@@ -53,7 +53,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:18:13.175Z  
+**Submitted:** 2026-10-14T16:18:40.688Z  
 
 ```java
 import java.util.*;
@@ -71,7 +71,7 @@ class Codechef
 		    int n=sc.nextInt();
 		    int a[]=new int[n];
 		    for(int j=0;j<n;j++){
-		        a[i]=sc.nextInt();
+		        a[j]=sc.nextInt();
 		    }
 		   Arrays.sort(a);
 		   int changeMin=a[n-1]-a[1];
