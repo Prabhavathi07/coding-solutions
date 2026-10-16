@@ -59,7 +59,7 @@ Chef scored $300$ points while the cutoff was $361$, hence he failed to get a go
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-16T17:22:29.479Z  
+**Submitted:** 2026-10-16T17:23:26.037Z  
 
 ```java
 import java.util.*;
