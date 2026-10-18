@@ -61,8 +61,8 @@ Return an integer array `[r, c]` representing the  **row and column indices**  o
 
 **Language:** Java  
 **Runtime:** 10 ms (beats 50.00%)  
-**Memory:** 189.8 MB  
-**Submitted:** 2026-10-18T03:43:11.046Z  
+**Memory:** 189.5 MB  
+**Submitted:** 2026-10-18T03:43:20.769Z  
 
 ```java
 class Solution {
