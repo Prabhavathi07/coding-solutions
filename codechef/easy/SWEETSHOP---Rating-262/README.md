@@ -59,7 +59,7 @@ Sushil had Rs. $100$ but he spent all of it on buying laddus. So, he can buy $0$
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T13:26:10.929Z  
+**Submitted:** 2026-10-17T13:26:15.432Z  
 
 ```java
 import java.util.*;
