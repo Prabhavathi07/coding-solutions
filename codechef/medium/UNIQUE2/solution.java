@@ -10,18 +10,20 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int a[]=new int[n];
-		int c=0;
+	
 		for(int i=0;i<n;i++){
 		    a[i]=sc.nextInt();
 		}
 		for(int i=0;i<n;i++){
-		    for(int j=0;j<n;j++){
-		        if(i!=j && a[i]==a[j]){
+		    int c=0;
+		    for(int j=0;j<i;j++){
+		        if(a[i]==a[j]){
 		            c++;
+		            break;
 		        }
 		    }
 		    if(c==0){
-		        System.out.println(a[i]);
+		        System.out.print(a[i]+" ");
 		    }
 		}
 
