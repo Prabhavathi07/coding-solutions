@@ -52,7 +52,7 @@ At position $7$, the value $410$ is smaller than the previous five values: $600,
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T16:00:16.431Z  
+**Submitted:** 2026-10-19T16:07:28.067Z  
 
 ```java
 import java.util.*;
@@ -64,6 +64,29 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		for(int i=0;i<t;i++){
+		    int n=sc.nextInt();
+		    int a[]=new int[n];
+		    for(int j=0;j<n;j++){
+		        a[j]=sc.nextInt();
+		    }
+		    int c=0;
+		    for(int j=0;j<n;j++){
+		        boolean g=true;
+		        for(int k=Math.max(0,j-5);k<j;k++){
+		            if(a[j]>=a[k]){
+		                g=false;
+		                break;
+		            }
+		        }
+		        if(g){
+		            c++;
+		        }
+		    }
+		    System.out.println(c);
+		}
 
 	}
 }
