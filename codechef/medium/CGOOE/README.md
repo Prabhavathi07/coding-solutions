@@ -52,7 +52,7 @@ At position $7$, the value $410$ is smaller than the previous five values: $600,
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T16:07:28.067Z  
+**Submitted:** 2026-10-19T16:14:30.777Z  
 
 ```java
 import java.util.*;
