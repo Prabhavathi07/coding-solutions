@@ -80,7 +80,7 @@ Today is day $49$. The next deep cleaning will be on day $50$, so the answer is 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-20T16:17:49.058Z  
+**Submitted:** 2026-10-20T16:17:57.819Z  
 
 ```java
 import java.util.*;
