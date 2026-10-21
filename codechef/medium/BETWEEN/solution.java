@@ -10,12 +10,8 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int x=sc.nextInt();
 		int y=sc.nextInt();
-		if(x<y){
-		    System.out.println(y-x-1);
-		}
-		else{
-		    System.out.println(0);
-		}
+		
+		    System.out.println(Math.abs(x-y)-1);
 
 	}
 }
