@@ -60,7 +60,7 @@ Your rival team is $1$st, and you are $2$nd, no teams between you.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T15:26:53.168Z  
+**Submitted:** 2026-10-21T15:30:10.588Z  
 
 ```java
 import java.util.*;
