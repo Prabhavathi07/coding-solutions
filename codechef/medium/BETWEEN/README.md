@@ -60,7 +60,7 @@ Your rival team is $1$st, and you are $2$nd, no teams between you.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T15:30:10.588Z  
+**Submitted:** 2026-10-21T15:31:18.384Z  
 
 ```java
 import java.util.*;
@@ -75,12 +75,8 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int x=sc.nextInt();
 		int y=sc.nextInt();
-		if(x<y){
-		    System.out.println(y-x-1);
-		}
-		else{
-		    System.out.println(0);
-		}
+		
+		    System.out.println(Math.abs(x-y)-1);
 
 	}
 }
