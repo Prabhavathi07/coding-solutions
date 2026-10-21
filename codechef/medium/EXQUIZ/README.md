@@ -57,7 +57,7 @@ Test case $4$: Since the final score is $0$, all questions can be skipped.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T16:16:50.014Z  
+**Submitted:** 2026-10-21T16:24:11.672Z  
 
 ```java
 import java.util.*;
@@ -74,8 +74,20 @@ class Codechef
 		for(int i=0;i<t;i++){
 		    int n=sc.nextInt();
 		    int s=sc.nextInt();
+		    int ans=Integer.MAX_VALUE;
+		    for(int c=0;c<=n;c++){
+		        int w=4*c-s;
+		        if(w>=0 && c+w<=n){
+		            ans=Math.min(ans,c+w);
+		        }
+		    }
+		    if(ans==Integer.MAX_VALUE){
+		        System.out.println(-1);
+		    }
+		    else{
+		        System.out.println(ans);
+		    }
 		}
-
 	}
 }
 
