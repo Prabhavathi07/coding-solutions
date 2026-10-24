@@ -61,7 +61,7 @@ Chef scored $5$ goals while Chefina scored $1$ goal. Thus, Chef wins and gets $7
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-24T17:48:49.277Z  
+**Submitted:** 2026-10-24T17:48:57.617Z  
 
 ```java
 import java.util.*;
