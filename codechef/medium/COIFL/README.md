@@ -63,7 +63,7 @@ To achieve a sum of 2, there are two ways:
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T16:16:07.056Z  
+**Submitted:** 2026-10-26T16:16:43.608Z  
 
 ```java
 import java.util.*;
@@ -75,7 +75,7 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		s=sc.nextInt();
+	int s=sc.nextInt();
 		int []dp=new int[s+1];
 		dp[0]=1;
 		dp[1]=1;
