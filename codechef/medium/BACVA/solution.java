@@ -12,9 +12,9 @@ class Codechef
 	for(int i=0;i<t;i++){
 	    long a=sc.nextLong();
 	    long s=0;
-	    while(a>0){
-	       
-	        s=s+a%10;
+	    while(a!=0){
+	        long temp=a%10;
+	        s=s+temp;
 	        a=a/10;
 	    }
 	    if(s%10==0){
