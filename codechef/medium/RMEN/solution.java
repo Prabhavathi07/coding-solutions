@@ -8,7 +8,7 @@ class Codechef
 	{
 		Scanner sc=new Scanner(System.in);
 		String s=sc.next();
-		StringBuilder result=new StringBulider();
+		StringBuilder result=new StringBuilder();
 		for(int i=0;i<s.length();i++){
 		    char ch=s.charAt(i);
 		    if(i+1<s.length()&&s.charAt(i+1)=='#'){
