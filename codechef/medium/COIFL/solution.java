@@ -7,7 +7,7 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		s=sc.nextInt();
+	int s=sc.nextInt();
 		int []dp=new int[s+1];
 		dp[0]=1;
 		dp[1]=1;
