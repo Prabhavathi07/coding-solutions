@@ -63,7 +63,7 @@ To achieve a sum of 2, there are two ways:
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T16:16:43.608Z  
+**Submitted:** 2026-10-26T16:18:35.612Z  
 
 ```java
 import java.util.*;
