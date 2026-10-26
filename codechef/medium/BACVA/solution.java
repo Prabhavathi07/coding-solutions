@@ -10,10 +10,10 @@ class Codechef
 	Scanner sc=new Scanner(System.in);
 	int t=sc.nextInt();
 	for(int i=0;i<t;i++){
-	    long a=sc.nextLong();
-	    long s=0;
+	    int a=sc.nextInt();
+	    int s=0;
 	    while(a!=0){
-	        long temp=a%10;
+	        int temp=a%10;
 	        s=s+temp;
 	        a=a/10;
 	    }
