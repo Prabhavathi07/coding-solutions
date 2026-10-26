@@ -12,7 +12,7 @@ class Codechef
 	for(int i=0;i<t;i++){
 	    long a=sc.nextLong();
 	    long s=0;
-	    while(a!=0){
+	    while(a>0){
 	       
 	        s=s+a%10;
 	        a=a/10;
