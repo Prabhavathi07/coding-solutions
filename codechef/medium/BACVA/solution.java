@@ -9,9 +9,9 @@ class Codechef
 		// your code goes here
 	Scanner sc=new Scanner(System.in);
 	int t=sc.nextInt();
-	int s=0;
 	for(int i=0;i<t;i++){
 	    int a=sc.nextInt();
+	    int s=0;
 	    while(a!=0){
 	        int temp=a%10;
 	        s=s+temp;
