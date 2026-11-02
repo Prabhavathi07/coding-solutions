@@ -49,7 +49,7 @@ aa aa
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T14:51:05.491Z  
+**Submitted:** 2026-11-02T14:52:11.493Z  
 
 ```java
 import java.util.*;
@@ -60,8 +60,10 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-
+	int t=sc.nextInt();
+	for(int i=0;i<t;i++){
+	    
+	}
 	}
 }
 
