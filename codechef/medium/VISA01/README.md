@@ -49,7 +49,7 @@ aa aa
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T14:52:11.493Z  
+**Submitted:** 2026-11-02T15:26:14.716Z  
 
 ```java
 import java.util.*;
@@ -60,9 +60,25 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+	    Scanner sc=new Scanner(System.in);
 	int t=sc.nextInt();
-	for(int i=0;i<t;i++){
-	    
+	for(int p=0;p<t;p++){
+	    String s=sc.next();
+	    String r=sc.next();
+	    int n=s.length();
+	    int m=r.length();
+	    int [][]dp=new int[n+1][m+1];
+	    for(int i=1;i<=n;i++){
+	        for(int j=1;j<=m;j++){
+	            if(s.charAt(i-1)==r.charAt(j-1)){
+	                dp[i][j]=1+dp[i-1][j-1];
+	            }
+	            else{
+	                dp[i][j]=Math.max(dp[i-1][j],dp[i][j-1]);
+	            }
+	        }
+	    }
+	    System.out.println(dp[n][m]);
 	}
 	}
 }
