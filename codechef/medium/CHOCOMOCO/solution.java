@@ -11,7 +11,12 @@ class Codechef
 		int t=sc.nextInt();
 		for(int i=0;i<t;i++){
 		    int p=sc.nextInt();
-		    
+		    if(p%4==0){
+		        System.out.println("NO");
+		    }
+		    else{
+		        System.out.println("YES");
+		    }
 		}
 
 	}
