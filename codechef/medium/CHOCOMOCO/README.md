@@ -55,7 +55,7 @@ YES
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T14:14:11.706Z  
+**Submitted:** 2026-11-02T14:18:43.979Z  
 
 ```java
 import java.util.*;
@@ -71,7 +71,12 @@ class Codechef
 		int t=sc.nextInt();
 		for(int i=0;i<t;i++){
 		    int p=sc.nextInt();
-		    
+		    if(p%4==0){
+		        System.out.println("NO");
+		    }
+		    else{
+		        System.out.println("YES");
+		    }
 		}
 
 	}
