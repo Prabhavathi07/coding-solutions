@@ -63,7 +63,7 @@ The second line contains <em>3</em> space-separated integers, <em>b[0]</em>, <em
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-03T05:07:03.271Z  
+**Submitted:** 2026-11-03T05:07:14.373Z  
 
 ```java
 import java.io.*;
