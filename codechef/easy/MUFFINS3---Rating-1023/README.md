@@ -43,7 +43,7 @@ In the first test case, there will be no leftover cupcakes regardless of the siz
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-03T03:11:58.324Z  
+**Submitted:** 2026-11-03T03:12:06.456Z  
 
 ```java
 import java.util.*;
