@@ -72,7 +72,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T14:50:55.305Z  
+**Submitted:** 2026-11-04T15:06:39.304Z  
 
 ```java
 import java.util.*;
@@ -83,8 +83,7 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-
+		
 	}
 }
 
