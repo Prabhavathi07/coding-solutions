@@ -72,7 +72,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T15:06:39.304Z  
+**Submitted:** 2026-11-04T15:19:11.302Z  
 
 ```java
 import java.util.*;
@@ -83,6 +83,28 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-->0){
+		    int n=sc.nextInt();
+		    int [] a=new int[n];
+		    for(int i=0;i<n;i++){
+		        a[i]=sc.nextInt();
+		    }
+		    int maxl=0;
+		    for(int i=0;i<n;i++){
+		        int oddc=0;
+		        for(int j=i;j<n;j++){
+		            if(a[j]%2!=0){
+		                oddc++;
+		            }
+		            if(oddc%2==0){
+		                maxl=Math.max(maxl,j-i+1);
+		            }
+		        }
+		    }
+		    System.out.println(maxl);
+		}
 		
 	}
 }
