@@ -65,7 +65,7 @@ Dhoni received $25$ votes, but Kohli received $26$ which is larger - so, Dhoni d
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T10:26:56.859Z  
+**Submitted:** 2026-11-04T10:27:12.379Z  
 
 ```java
 import java.util.*;
