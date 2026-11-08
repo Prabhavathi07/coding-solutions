@@ -59,7 +59,7 @@ Since the temperature is more than $30$ degrees Celsius Chef will turn on the Ai
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-08T03:33:05.818Z  
+**Submitted:** 2026-11-08T03:33:16.602Z  
 
 ```java
 import java.util.*;
