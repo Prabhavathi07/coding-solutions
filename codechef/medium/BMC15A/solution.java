@@ -11,13 +11,14 @@ class Codechef
 		for(int p=0;p<t;p++){
 		    int n=sc.nextInt();
 		    int m=sc.nextInt();
-		    while(m!=0){
-		        int temp=m;
-		        m=n%m;
-		        n=temp;
+		    int gcd=1;
+		    for(int i=1;i<=n && i<=m;i++){
+		        if(n%i==0 && m%i==0){
+		            gcd=i;
+		        }
+		        
 		    }
-		   
-		    System.out.println(n);
+		    System.out.println(gcd);
 		}
 
 	}
