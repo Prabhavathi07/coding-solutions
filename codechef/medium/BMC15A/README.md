@@ -57,7 +57,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T15:25:40.401Z  
+**Submitted:** 2026-11-09T15:31:54.775Z  
 
 ```java
 import java.util.*;
@@ -73,14 +73,13 @@ class Codechef
 		for(int p=0;p<t;p++){
 		    int n=sc.nextInt();
 		    int m=sc.nextInt();
-		    int gcd=1;
-		    for(int i=1;i<=n && i<=m;i++){
-		        if(n%i==0 && m%i==0){
-		            gcd=i;
-		        }
-		        
+		    while(m!=0){
+		        int temp=m;
+		        m=n%m;
+		        n=temp;
 		    }
-		    System.out.println(gcd);
+		   
+		    System.out.println(n);
 		}
 
 	}
