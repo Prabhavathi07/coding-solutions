@@ -82,7 +82,7 @@ The only group is the single student at index $3$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T15:38:28.760Z  
+**Submitted:** 2026-11-09T15:43:32.087Z  
 
 ```java
 import java.util.*;
@@ -93,7 +93,14 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
+	Scanner sc=new Scanner(System.in);
+	int t=sc.nextInt();
+String p=sc.nextLine();
+for(int i=0;i<t;i++){
+    if(p.charAt(i)=='m'){
+        c++;
+    }
+}
 
 	}
 }
