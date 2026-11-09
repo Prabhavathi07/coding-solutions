@@ -56,7 +56,7 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T15:02:09.312Z  
+**Submitted:** 2026-11-09T15:04:11.889Z  
 
 ```java
 import java.util.*;
@@ -73,7 +73,14 @@ class Codechef
 		for(int i=0;i<t;i++){
 		    int p=sc.nextInt();
 		    int d=sc.nextInt();
-		    int 
+		    int k=sc.nextInt();
+		    int b=sc.nextInt();
+		    if(p+(d*k)<=b){
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO");
+		    }
 		}
 
 	}
