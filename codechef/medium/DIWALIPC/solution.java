@@ -12,7 +12,14 @@ class Codechef
 		for(int i=0;i<t;i++){
 		    int p=sc.nextInt();
 		    int d=sc.nextInt();
-		    int 
+		    int k=sc.nextInt();
+		    int b=sc.nextInt();
+		    if(p+(d*k)<=b){
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO");
+		    }
 		}
 
 	}
