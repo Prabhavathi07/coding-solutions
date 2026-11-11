@@ -64,7 +64,7 @@ It is impossible for Chef to win.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-11T14:44:13.778Z  
+**Submitted:** 2026-11-11T14:47:47.062Z  
 
 ```java
 import java.util.*;
@@ -78,7 +78,7 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int r=sc.nextInt();
 		int b=sc.nextInt();
-		if(r%6==0){
+		if((b*6)>=r){
 		    System.out.println("Yes");
 		}
 		else{
