@@ -9,7 +9,7 @@ class Codechef
 		Scanner sc=new Scanner(System.in);
 		int r=sc.nextInt();
 		int b=sc.nextInt();
-		if(r%6==0){
+		if((b*6)>=r){
 		    System.out.println("Yes");
 		}
 		else{
