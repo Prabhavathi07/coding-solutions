@@ -58,7 +58,7 @@ Chef requires $12$ dollars to buy 2 ice creams, he only has $11$ dollars hence h
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T14:45:29.853Z  
+**Submitted:** 2026-11-13T14:45:37.856Z  
 
 ```java
 import java.util.*;
