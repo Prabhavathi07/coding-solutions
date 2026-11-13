@@ -60,7 +60,7 @@ Chef will be able to read only $6$ pages, falling short of the required $7$ page
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T13:35:21.785Z  
+**Submitted:** 2026-11-13T13:35:30.892Z  
 
 ```java
 import java.util.*;
