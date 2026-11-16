@@ -66,7 +66,7 @@ Both sentences contain `hello` twice and `world` once. Punctuation separates the
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T16:14:10.178Z  
+**Submitted:** 2026-11-16T16:23:03.643Z  
 
 ```java
 import java.util.*;
