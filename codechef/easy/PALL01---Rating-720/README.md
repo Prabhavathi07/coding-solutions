@@ -47,7 +47,7 @@ wins
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-17T15:00:51.123Z  
+**Submitted:** 2026-11-17T15:01:05.413Z  
 
 ```java
 import java.util.*;
